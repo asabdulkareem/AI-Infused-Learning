@@ -6,3 +6,5 @@
 /S1/second/__pycache__
 /S1/third/.gradio
 /.env
+/.idea
+/S1/.gradio

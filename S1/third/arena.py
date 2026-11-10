@@ -1,4 +1,4 @@
-from helper import client, MODEL1, MODEL2
+from common.helper import client, MODEL
 
 
 def battle(prompt):

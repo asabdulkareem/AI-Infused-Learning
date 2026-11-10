@@ -1,8 +1,7 @@
 # pip install openai gradio python-dotenv
-import os
 import gradio as gr
 
-from helper import client, MODEL1, MODEL2
+from common.helper import client, MODEL1, MODEL2
 
 def ask(client, model, prompt):
     r = client.chat.completions.create(

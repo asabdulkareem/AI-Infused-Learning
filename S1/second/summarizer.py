@@ -1,8 +1,5 @@
-from dotenv import load_dotenv
-from helper import client, MODEL
-from web_scraper import fetch_website_contents
-
-load_dotenv()          # <-- this reads your .env file
+from common.helper import client, MODEL
+from common.web_scraper import fetch_website_contents
 
 system_prompt = """You analyze the contents of a website and
 give a short, friendly summary. Ignore navigation menus.

@@ -1,7 +1,7 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
-from helper import OPENROUTER_API_KEY, MODEL
-from web_scraper import fetch_website_contents
+from common.helper import OPENROUTER_API_KEY, MODEL
+from common.web_scraper import fetch_website_contents
 
 prompt = ChatPromptTemplate.from_template("Summarize this website: {content}")
 model  = ChatOpenAI(
